@@ -1,0 +1,63 @@
+/* styles.css */
+
+body {
+    background-image: url('https://sprcms2.blob.core.windows.net/guidearticles/thumbnails/3087/czerwony-mustang.jpeg');
+    background-size: cover;
+}
+
+h1, h2 {
+    color: red;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.menu {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.menu h2 {
+    color: #333;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li {
+    margin-bottom: 5px;
+}
+
+.menu ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
